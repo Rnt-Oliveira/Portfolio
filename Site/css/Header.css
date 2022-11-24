@@ -1,0 +1,95 @@
+/*  CORES:
+darkslategray
+snow
+darkolivegreen
+grey11 1C1C1C
+black
+
+*/
+
+/*
+main > p {
+    seleciona o primeiro p dentro do main (pais e filhos)
+}
+img + p {
+    seleciona o primeiro parágrago que vem diretamente após a imagem (irmãos)
+}
+img ~ p {
+    seleciona todos os p que vem diretamente depois da imagem 
+}
+.sobre p:not(#missao) {
+    seleciona todos os parágros que não são o id missão ( perfeito para alterar conteúdos sem ser generalista)
+}
+*/
+
+/*      CALCULO NO CSS
+
+.utensilios {
+    width: calc(40% - 17px);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: snow;
+}
+
+/*      HEADER      */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f0f0f;
+
+}
+
+header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+    margin: auto 0;
+    background-color: darkslategray;
+    width: 15.8%;
+    height: 56rem;
+    opacity: 0.99;
+}
+
+.boxHeader {
+    position: relative;
+    width: 100%;
+    
+
+
+}
+
+/*      FOTO DO PERFIL       */
+.fotoProfile {
+    width: 60%;
+    border-radius: 50%;
+    border: solid 0.3rem rgb(0, 14, 11);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+/*          NOME        */
+#nomePerfil {
+    /*FONTE E ESTILO DO NOME NO PERFIL*/
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    color: snow;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-left: -5rem;
+}
+
+.nome-capitular {
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    transform: scale(1.2);
+    padding-right: 0.01rem;
+}
+
+.sobrenome {
+    margin-left: 9rem;
+}
