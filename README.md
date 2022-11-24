@@ -1,5 +1,5 @@
 
-<h1> Site Portfolio <i>em desenvolvimento</i></h1>
+<h1> Site Portfolio: <i>em desenvolvimento</i></h1>
 <p>Nesse projeto pessoal, estou desenvolvendo um site portfolio para os meus projetos, a meta é que ele sirva como meu currículo dando a opção de impressão para uma versão física que possuirá um QR Code com o link para o site original. </p>
 
 <hr>
