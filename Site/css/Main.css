@@ -1,0 +1,25 @@
+/*----------------------------------MAIN--------------------------------------------*/
+
+main {
+    background: url("bg1.png");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 12.7%;
+    opacity: 0.98;
+}
+
+.main-area {
+    width: 100%;
+    height: 80%;
+    border: solid;
+    border-color: aliceblue;
+    position: fixed;
+    top: 15%;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    color: antiquewhite;
+   
+}   
+

@@ -1,0 +1,147 @@
+/*      Geral     */
+
+/*  CORES:
+darkslategray
+snow
+darkolivegreen
+grey11 1C1C1C
+black
+
+  CLASSES
+
+.profile {
+    ALINHAR AO CENTRO TODO O CONTEUDO E COLOCAR ICONES COMO REDONDO COR DE FUNDO DA BARRA
+}
+
+.nomePerfil {
+    FONTE E ESTILO DO NOME NO PERFIL
+}
+
+.download {
+  BOTÃO DE DOWNLOAD DO CURRÍCULO.
+  POR A IMAGEM DE DOWNLOAD
+}
+
+.socialMedia {
+    FAZER LISTA HORIZONTAL COM OS ICONES DE MIDIA
+}
+
+.linkedin {
+    AJUSTAR ALGUM DETALHE
+}
+
+.whatsapp {
+    AJUSTAR ALGUM DETALHE
+}
+
+.github {
+    AJUSTAR ALGUM DETALHE
+}
+
+.navBar {
+    FAZER A BARRA VERTICAL COM OS COMPONENTES DE NAVEGAÇÃO
+}
+
+.iconeLista {
+
+}
+
+
+
+
+
+*/
+
+
+/*
+body {
+    font-family: 'Roboto', sans-serif;
+    background:snow;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family:'Josefin Slab', serif;
+}
+/*      Botão para voltar ao topo       
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: darkslategray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #2eafec;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/* Navegação Mobile 
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #149ddd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active #header {
+    left: 0;
+}
+
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+
+}*/

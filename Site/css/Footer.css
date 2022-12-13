@@ -1,0 +1,62 @@
+/*-------------------------------FOOTER-----------------------------------*/
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cinzel Decorative', sans-serif;
+    font-size: 0.6rem;
+    opacity: 0.9;
+    background: url("bg.png");
+    color: antiquewhite;
+}
+
+.footer-area {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+}
+
+
+
+/*
+    FALTA FAZER CONFIGURAR TODO O FOOTER
+*/
+
+
+
+/*  CORES:
+darkslategray
+snow
+darkolivegreen
+grey11 1C1C1C
+black
+
+*/
+
+/*
+main > p {
+    seleciona o primeiro p dentro do main (pais e filhos)
+}
+img + p {
+    seleciona o primeiro parágrago que vem diretamente após a imagem (irmãos)
+}
+img ~ p {
+    seleciona todos os p que vem diretamente depois da imagem 
+}
+.sobre p:not(#missao) {
+    seleciona todos os parágros que não são o id missão ( perfeito para alterar conteúdos sem ser generalista)
+}
+*/
+
+/*      CALCULO NO CSS
+
+.utensilios {
+    width: calc(40% - 17px);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: snow;
+}*/

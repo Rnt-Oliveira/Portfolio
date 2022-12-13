@@ -1,0 +1,242 @@
+/*  CORES:
+darkslategray
+snow
+darkolivegreen
+grey11 1C1C1C
+black
+
+*/
+
+/*
+main > p {
+    seleciona o primeiro p dentro do main (pais e filhos)
+}
+img + p {
+    seleciona o primeiro parágrago que vem diretamente após a imagem (irmãos)
+}
+img ~ p {
+    seleciona todos os p que vem diretamente depois da imagem 
+}
+.sobre p:not(#missao) {
+    seleciona todos os parágros que não são o id missão ( perfeito para alterar conteúdos sem ser generalista)
+}
+*/
+
+/*      CALCULO NO CSS
+
+.utensilios {
+    width: calc(40% - 17px);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: snow;
+}
+    /*background: linear-gradient( to bottom, black 90%, dimgrey);*/
+
+/*      HEADER      */
+
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+#header-area {
+    text-align: center;
+    width: 100%;
+    height: 8.5rem;
+    display: inline-flex;
+    background: url("bg.png");
+
+}
+
+.profile-foto {
+    margin-top: 1rem;
+    width: 10%;
+    border: solid;
+    border-radius: 50%;
+    border-width: 0.4rem;
+    cursor: pointer;
+    position: relative;
+    top: -10%;
+    left: 117%;
+
+}
+
+
+.profile-nome {
+    font-family: 'Cinzel Decorative', sans-serif;
+    font-size: 1rem;
+    display: none;
+
+}
+
+/*-------------------PROFILE-CONTAT0- DIV PRINCIPAL-------------------------*/
+#profile-contato {
+    position: relative;
+    width: 30%;
+    height: 79%;
+    left: 2.8%;
+    top: 45%;   
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+
+/*-------------------PROFILE-CONTAT0-LINKEDIN-------------------------*/
+.a-linkedin {
+    position: relative;
+    top: 29%;
+    left: 56%;
+}
+
+.linkedin {
+    width: 8%;
+    height: 36%;
+    background-color: rgba(70, 131, 180, 0);
+    cursor: pointer;
+    margin: 0.2rem;
+
+}
+
+.linkedin-ico {
+    width: 100%;
+}
+
+.linkedin:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/*-------------------PROFILE-CONTATO-WHATSAPP-------------------------*/
+.a-whatsapp {
+    position: relative;
+    top: 29%;
+    left: 33%;
+}
+
+.whatsapp {
+    width: 8%;
+    height: 36%;
+    background-color: rgba(70, 131, 180, 0);
+    cursor: pointer;
+    margin: 0.2rem;
+}
+
+.whatsapp-ico {
+    width: 100%;
+}
+
+.whatsapp:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/*-------------------PROFILE-CONTATO-GITHUB-------------------------*/
+.a-github {
+    position: relative;
+    top: 29%;
+    left: 9%;
+}
+
+.github {
+    width: 8%;
+    height: 36%;
+    background-color: rgba(70, 131, 180, 0);
+    cursor: pointer;
+    margin: 0.2rem;
+}
+
+.github-ico {
+    width: 100%;
+}
+
+.github:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/*------------------------------------------------------------------*/
+
+/*-----------------------------DIV-NAVBAR-------------------------------------*/
+.navBar {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    right: 25.5%;
+    top: -22%;
+
+}
+
+.navBar ul {
+    display: flex;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.navBar ul li:nth-child(3) {
+    margin-right: 11%;
+}
+
+.a-nav-menu {
+    top: 60%;
+    position: relative;
+    cursor: default;
+}
+
+.nav-menu {
+    width: 92%;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: rgba(70, 131, 180, 0);
+    font-size: 1rem;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-menu:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.nav-menu:active {
+    color: steelblue;
+    transition: 0.1s;
+}
+
+/*-------------------------------NAVBAR-ICO-----------------------------------*/
+.nav-ico {
+    width: 20%;
+    margin: 0.5rem;
+    vertical-align: middle;
+
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*-------------------------    BORDAS   ---------------------------------*/
+#header-area,
+#profile-contato,
+.navBar,
+.linkedin,
+.whatsapp,
+.github,
+.nav-menu,
+footer {
+    border: none;
+
+}
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*
+    FALTA FAZER APARECER UM BALÃO COM A DESCRIÇÃO "DOANLOAD" AO LADO PARA AUXILIAR O DOWNLOAD DO ITEM
+*/
